@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6j0624/v1
+canonical_location: https://kanripo.org/bkk/KR6j0624/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大寒林聖難拏陀羅尼經
+  identifiers:
+    alt_id:
+    - T21n1392
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1392.xml
+    old_id: T21n1392
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0624_000.yaml, hash: 'sha256:edec3fea86f4e5366e8aeb566494f546e065740de71440e74789f992416c5772'}
+  - {seq: 1, filename: KR6j0624_001.yaml, hash: 'sha256:da23bd0610048cc3fc78b33d3b7b7d693a478a81e7ffc69c9517e8812681c9e3'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0624_001.markers.yaml, hash: 'sha256:691a75d32758f98d3c5ff99a6dba455aa47430b31c21ea7a69069e0a76b4ddd4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0624_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2275
+  label: 大寒林聖難拏陀羅尼經
+  type: juan
+  level: 1
+hash: sha256:2ef80159e58e3f404373c22f96464d28300d3b437bb90cc096f679bca468e536
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

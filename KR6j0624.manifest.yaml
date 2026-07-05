@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0624_000.yaml, hash: 'sha256:edec3fea86f4e5366e8aeb566494f546e065740de71440e74789f992416c5772'}
-  - {seq: 1, filename: KR6j0624_001.yaml, hash: 'sha256:da23bd0610048cc3fc78b33d3b7b7d693a478a81e7ffc69c9517e8812681c9e3'}
+  - {seq: 1, filename: KR6j0624_001.yaml, hash: 'sha256:0e06123ed74e24a90cc89d813ebcc24e48ac11ca645cd384eae82bc4fe0c8b8f'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0624_001.markers.yaml, hash: 'sha256:691a75d32758f98d3c5ff99a6dba455aa47430b31c21ea7a69069e0a76b4ddd4'}
+  - {seq: 0, role: markers, filename: assets/KR6j0624_000.markers.yaml, hash: 'sha256:988e12aca4038a37b648115e3c3699a6beb1db08c945759b095eb35ddf98ff9c'}
+  - {seq: 1, role: markers, filename: assets/KR6j0624_001.markers.yaml, hash: 'sha256:7c058a1efe7946f63a77e782579813fa0fe5c0ffe14773a7a0d3615775e06ba6'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 大寒林聖難拏陀羅尼經
   type: juan
   level: 1
-hash: sha256:2ef80159e58e3f404373c22f96464d28300d3b437bb90cc096f679bca468e536
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:dbf8f5e7ffee51aaee9b7a6f4fe1ba612402d6f648064bdc42dd4b1ae2fcbad4
